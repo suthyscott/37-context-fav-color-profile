@@ -5,7 +5,6 @@ const ColorContext = createContext({
     changeColor: () => {}
 })
 
-console.log(ColorContext)
 
 export const ColorContextProvider = props => {
     const [color, setColor] = useState('')
